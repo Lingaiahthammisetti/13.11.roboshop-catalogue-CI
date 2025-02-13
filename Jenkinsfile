@@ -9,7 +9,8 @@ def configMap = [
 ]
 echo "test:"
 if( ! env.BRANCH_NAME.equalsIgnoreCase('main')){
-    pipelineDecission.decidePipeline(configMap)
+      nodeJSEKSPipeline(configMap)
+    //pipelineDecision.decidePipeline(configMap)
 }
 else{
     echo "Proceed with CR or NON-PROD pipeline"
