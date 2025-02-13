@@ -1,9 +1,8 @@
-@Library('jenkins-shared-library') _
+@Library('jenkins-shared-library-for-roboshop')
 
 // create variable of map type and set the values
-
 def configMap = [
-    type: "nodejsEKS",
+    //type: "nodejsEKS",
     component: "catalogue",
     project: "roboshop"
 ]
