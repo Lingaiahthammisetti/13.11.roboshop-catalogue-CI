@@ -1,4 +1,4 @@
-@Library('13.3.jenkins-shared-library-roboshop') _
+@Library('jenkins-shared-library-for-roboshop')
 
 // create variable of map type and set the values
 def configMap = [
